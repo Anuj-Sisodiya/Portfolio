@@ -9,13 +9,13 @@ export function SkillsSection() {
         <div>
           <h3 className="text-primary font-bold mb-2">Programming Languages</h3>
           <div className="space-y-2">
-            <SkillBar name="C" percentage={85} />
-            <SkillBar name="C++" percentage={80} />
-            <SkillBar name="Python" percentage={85} />
+            <SkillBar name="C" percentage={80} />
+            <SkillBar name="C++" percentage={85} />
+            <SkillBar name="Python" percentage={75} />
             <SkillBar name="SQL" percentage={75} />
-            <SkillBar name="HTML" percentage={90} />
-            <SkillBar name="CSS" percentage={85} />
-            <SkillBar name="JavaScript" percentage={80} />
+            <SkillBar name="HTML" percentage={60} />
+            <SkillBar name="CSS" percentage={60} />
+            <SkillBar name="JavaScript" percentage={70} />
           </div>
         </div>
 
@@ -24,33 +24,33 @@ export function SkillsSection() {
           <div className="space-y-2">
             <SkillBar name="Node.js" percentage={85} />
             <SkillBar name="React.js" percentage={80} />
-            <SkillBar name="Express.js" percentage={85} />
-            <SkillBar name="Tailwind CSS" percentage={90} />
-            <SkillBar name="Vite" percentage={80} />
-            <SkillBar name="MongoDB" percentage={75} />
-            <SkillBar name="Mongoose ODM" percentage={75} />
+            <SkillBar name="Express.js" percentage={75} />
+            <SkillBar name="Tailwind CSS" percentage={65} />
+            <SkillBar name="Vite" percentage={60} />
+            <SkillBar name="MongoDB" percentage={60} />
+            <SkillBar name="Mongoose ODM" percentage={50} />
           </div>
         </div>
 
         <div>
           <h3 className="text-primary font-bold mb-2">Coursework</h3>
           <div className="space-y-2">
-            <SkillBar name="Data Structures and Algorithms" percentage={85} />
+            <SkillBar name="Data Structures and Algorithms" percentage={90} />
             <SkillBar name="OOPs" percentage={80} />
             <SkillBar name="DBMS" percentage={75} />
-            <SkillBar name="Operating Systems" percentage={70} />
+            <SkillBar name="Operating Systems" percentage={80} />
             <SkillBar name="Machine Learning" percentage={75} />
-            <SkillBar name="Deep Learning" percentage={70} />
+            <SkillBar name="Deep Learning" percentage={50} />
           </div>
         </div>
 
         <div>
           <h3 className="text-primary font-bold mb-2">IDEs & Tools</h3>
           <div className="space-y-2">
-            <SkillBar name="VS Code" percentage={95} />
+            <SkillBar name="VS Code" percentage={85} />
             <SkillBar name="Jupyter Notebook" percentage={85} />
             <SkillBar name="Google Collab" percentage={85} />
-            <SkillBar name="Git & GitHub" percentage={80} />
+            <SkillBar name="Git & GitHub" percentage={60} />
             <SkillBar name="Postman" percentage={85} />
           </div>
         </div>
